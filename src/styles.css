@@ -1,0 +1,56 @@
+/* GLOBAL STYLES */
+
+.all-content {
+    background-color: #F4FEFD;
+    color: #1B2223;
+}
+
+p {
+    font-family: 'Lato';
+}
+
+h1, h2, h3 {
+    font-family: 'Voga';
+}
+
+
+
+
+/* GENERAL STYLES */
+
+
+
+/* SPECIFIC STYLES */
+
+.welcome-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #F4FEFD;
+
+    background: linear-gradient(
+        56deg,
+        hsl(330, 76.07%, 45.88%) 0%,
+        hsl(330.66, 71.37%, 47.09%) 8.1%,
+        hsl(331.95, 62.09%, 49.65%) 15.5%,
+        hsl(333.19, 58.13%, 52.51%) 22.5%,
+        hsl(334.19, 54.44%, 55.35%) 29%,
+        hsl(334.87, 50.21%, 58.04%) 35.3%,
+        hsl(335.2, 45.52%, 60.54%) 41.2%,
+        hsl(335.13, 40.43%, 62.82%) 47.1%,
+        hsl(334.6, 35.05%, 64.88%) 52.9%,
+        hsl(333.44, 29.51%, 66.71%) 58.8%,
+        hsl(331.39, 24.01%, 68.29%) 64.7%,
+        hsl(328.03, 18.8%, 69.62%) 71%,
+        hsl(322.68, 14.16%, 70.69%) 77.5%,
+        hsl(314.71, 10.42%, 71.48%) 84.5%,
+        hsl(305.13, 7.94%, 71.98%) 91.9%,
+        hsl(300, 7.04%, 72.16%) 100%
+            
+    );
+}
+
